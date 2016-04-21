@@ -28,7 +28,6 @@ namespace NewMVCAppTest
               var expected = "Welcome";
               var actual = ((ViewResult)controller.Index()).ViewName;
               Assert.AreEqual(expected, actual);
-
         }
        [TestMethod]
         public void TestMethod2()
